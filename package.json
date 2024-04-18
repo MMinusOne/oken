@@ -1,0 +1,26 @@
+{
+  "name": "okenjs",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "version": "changeset"
+  },
+  "keywords": [
+    "backend",
+    "framework",
+    "fast",
+    "typescript",
+    "cors"
+  ],
+  "author": "MMinusZero",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
